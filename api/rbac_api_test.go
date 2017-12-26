@@ -15,7 +15,7 @@
 package api
 
 import (
-	"github.com/hsluoyz/casbin/util"
+	"github.com/branthz/casbin/util"
 	"log"
 	"testing"
 )

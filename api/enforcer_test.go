@@ -15,7 +15,7 @@
 package api
 
 import (
-	"github.com/hsluoyz/casbin/persist"
+	"github.com/branthz/casbin/persist"
 	"log"
 	"reflect"
 	"testing"

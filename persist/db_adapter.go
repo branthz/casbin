@@ -17,7 +17,7 @@ package persist
 import (
 	"database/sql"
 	_ "github.com/go-sql-driver/mysql" // This is for MySQL initialization.
-	"github.com/hsluoyz/casbin"
+	"github.com/branthz/casbin"
 )
 
 // DBAdapter represents the database adapter for policy persistence, can load policy from database or save policy to database.

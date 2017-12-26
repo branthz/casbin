@@ -16,8 +16,8 @@ package api
 
 import (
 	"github.com/Knetic/govaluate"
-	"github.com/hsluoyz/casbin"
-	"github.com/hsluoyz/casbin/persist"
+	"github.com/branthz/casbin"
+	"github.com/branthz/casbin/persist"
 	"log"
 )
 

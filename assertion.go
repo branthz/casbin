@@ -15,7 +15,7 @@
 package casbin
 
 import (
-	"github.com/hsluoyz/casbin/rbac"
+	"github.com/branthz/casbin/rbac"
 	"log"
 )
 

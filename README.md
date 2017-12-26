@@ -1,11 +1,11 @@
 casbin
 ====
 
-[![Go Report Card](https://goreportcard.com/badge/github.com/hsluoyz/casbin)](https://goreportcard.com/report/github.com/hsluoyz/casbin)
-[![Build Status](https://travis-ci.org/hsluoyz/casbin.svg?branch=master)](https://travis-ci.org/hsluoyz/casbin)
-[![Coverage Status](https://coveralls.io/repos/github/hsluoyz/casbin/badge.svg?branch=master)](https://coveralls.io/github/hsluoyz/casbin?branch=master)
-[![Godoc](https://godoc.org/github.com/hsluoyz/casbin?status.svg)](https://godoc.org/github.com/hsluoyz/casbin)
-[![Release](https://img.shields.io/github/release/hsluoyz/casbin.svg)](https://github.com/hsluoyz/casbin/releases/latest)
+[![Go Report Card](https://goreportcard.com/badge/github.com/branthz/casbin)](https://goreportcard.com/report/github.com/branthz/casbin)
+[![Build Status](https://travis-ci.org/branthz/casbin.svg?branch=master)](https://travis-ci.org/branthz/casbin)
+[![Coverage Status](https://coveralls.io/repos/github/branthz/casbin/badge.svg?branch=master)](https://coveralls.io/github/branthz/casbin?branch=master)
+[![Godoc](https://godoc.org/github.com/branthz/casbin?status.svg)](https://godoc.org/github.com/branthz/casbin)
+[![Release](https://img.shields.io/github/release/branthz/casbin.svg)](https://github.com/branthz/casbin/releases/latest)
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/casbin/lobby)
 
 casbin is a powerful and efficient open-source access control library for Golang projects. It provides support for enforcing authorization based on various models. By far, the access control models supported by casbin are:
@@ -67,7 +67,7 @@ What casbin does NOT do:
 ## Installation
 
 ```
-go get github.com/hsluoyz/casbin
+go get github.com/branthz/casbin
 ```
 
 ## Get started
@@ -178,27 +178,27 @@ e.SavePolicy()
 
 Model | Model file | Policy file
 ----|------|----
-ACL | [basic_model.conf](https://github.com/hsluoyz/casbin/blob/master/examples/basic_model.conf) | [basic_policy.csv](https://github.com/hsluoyz/casbin/blob/master/examples/basic_policy.csv)
-ACL with superuser | [basic_model_with_root.conf](https://github.com/hsluoyz/casbin/blob/master/examples/basic_model_with_root.conf) | [basic_policy.csv](https://github.com/hsluoyz/casbin/blob/master/examples/basic_policy.csv)
-ACL without users | [basic_model_without_users.conf](https://github.com/hsluoyz/casbin/blob/master/examples/basic_model_without_users.conf) | [basic_policy_without_users.csv](https://github.com/hsluoyz/casbin/blob/master/examples/basic_policy_without_users.csv)
-ACL without resources | [basic_model_without_resources.conf](https://github.com/hsluoyz/casbin/blob/master/examples/basic_model_without_resources.conf) | [basic_policy_without_resources.csv](https://github.com/hsluoyz/casbin/blob/master/examples/basic_policy_without_resources.csv)
-RBAC | [rbac_model.conf](https://github.com/hsluoyz/casbin/blob/master/examples/rbac_model.conf)  | [rbac_policy.csv](https://github.com/hsluoyz/casbin/blob/master/examples/rbac_policy.csv)
-RBAC with resource roles | [rbac_model_with_resource_roles.conf](https://github.com/hsluoyz/casbin/blob/master/examples/rbac_model_with_resource_roles.conf)  | [rbac_policy_with_resource_roles.csv](https://github.com/hsluoyz/casbin/blob/master/examples/rbac_policy_with_resource_roles.csv)
-ABAC | [abac_model.conf](https://github.com/hsluoyz/casbin/blob/master/examples/abac_model.conf)  | N/A
-RESTful | [keymatch_model.conf](https://github.com/hsluoyz/casbin/blob/master/examples/keymatch_model.conf)  | [keymatch_policy.csv](https://github.com/hsluoyz/casbin/blob/master/examples/keymatch_policy.csv)
+ACL | [basic_model.conf](https://github.com/branthz/casbin/blob/master/examples/basic_model.conf) | [basic_policy.csv](https://github.com/branthz/casbin/blob/master/examples/basic_policy.csv)
+ACL with superuser | [basic_model_with_root.conf](https://github.com/branthz/casbin/blob/master/examples/basic_model_with_root.conf) | [basic_policy.csv](https://github.com/branthz/casbin/blob/master/examples/basic_policy.csv)
+ACL without users | [basic_model_without_users.conf](https://github.com/branthz/casbin/blob/master/examples/basic_model_without_users.conf) | [basic_policy_without_users.csv](https://github.com/branthz/casbin/blob/master/examples/basic_policy_without_users.csv)
+ACL without resources | [basic_model_without_resources.conf](https://github.com/branthz/casbin/blob/master/examples/basic_model_without_resources.conf) | [basic_policy_without_resources.csv](https://github.com/branthz/casbin/blob/master/examples/basic_policy_without_resources.csv)
+RBAC | [rbac_model.conf](https://github.com/branthz/casbin/blob/master/examples/rbac_model.conf)  | [rbac_policy.csv](https://github.com/branthz/casbin/blob/master/examples/rbac_policy.csv)
+RBAC with resource roles | [rbac_model_with_resource_roles.conf](https://github.com/branthz/casbin/blob/master/examples/rbac_model_with_resource_roles.conf)  | [rbac_policy_with_resource_roles.csv](https://github.com/branthz/casbin/blob/master/examples/rbac_policy_with_resource_roles.csv)
+ABAC | [abac_model.conf](https://github.com/branthz/casbin/blob/master/examples/abac_model.conf)  | N/A
+RESTful | [keymatch_model.conf](https://github.com/branthz/casbin/blob/master/examples/keymatch_model.conf)  | [keymatch_policy.csv](https://github.com/branthz/casbin/blob/master/examples/keymatch_policy.csv)
 
 ## Our users
 
-- [Docker](https://github.com/docker/docker): The world's leading software container platform, via plugin: [casbin-authz-plugin](https://github.com/hsluoyz/casbin-authz-plugin)
+- [Docker](https://github.com/docker/docker): The world's leading software container platform, via plugin: [casbin-authz-plugin](https://github.com/branthz/casbin-authz-plugin)
 - [Tango](https://github.com/lunny/tango): Micro & pluggable web framework for Go, via plugin: [Authz](https://github.com/tango-contrib/authz)
 - [pybbs-go](https://github.com/tomoya92/pybbs-go): A simple BBS with strong Admin permission management.
 
 ## License
 
-This project is licensed under the [Apache 2.0 license](https://github.com/hsluoyz/casbin/blob/master/LICENSE).
+This project is licensed under the [Apache 2.0 license](https://github.com/branthz/casbin/blob/master/LICENSE).
 
 ## Contact
 
 If you have any issues or feature requests, please feel free to contact me at:
-- https://github.com/hsluoyz/casbin/issues
-- hsluoyz@gmail.com (Yang Luo's email, if your issue needs to be kept private, please contact me via this mail)
+- https://github.com/branthz/casbin/issues
+- branthz@gmail.com (Yang Luo's email, if your issue needs to be kept private, please contact me via this mail)
